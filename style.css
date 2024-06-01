@@ -1,307 +1,279 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-*, *::after, *::before {box-sizing: inherit;}
-html{
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
 }
-body{
-    background-color: #D7D7D7;
-    /* height: 100vh; */
-    font-family: "Open Sans", sans-serif;
-    /* width: 80%; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+html {
+  box-sizing: border-box;
 }
-
-h1,h2,h3,h4,h5,h6,p{
-    margin: 0;
+body {
+  background-color: #d7d7d7;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.container{
-    width: 60%;
-    /* margin-left: 20%;
-    margin-right: 20%; */
-    background-color: #FFFFFF;
-    border: 15px solid #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
-/* .rightPart{
-    width: 60%;
-} */
-.leftpart{
-    /* width: 40%; */
-    background-color: #EBEBEB;
+.container {
+  width: 60%;
+  background-color: #ffffff;
+  border: 15px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-
-.personPicture{
-    height: 250px;
-    width: auto;
+.leftpart {
+  background-color: #ebebeb;
 }
-.designation{
-    background-color: #FFC905;
-    text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    word-spacing: 2px;
-    font-size: 1em;
-    width: 100%;
-    margin-left: 20%;
+.personPicture {
+  height: 250px;
+  width: auto;
 }
-
-.yellowLine{
-    background-color: #FFC905;
-    height: 2px;
-    width: 35px;
+.designation {
+  background-color: #ffc905;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  word-spacing: 2px;
+  font-size: 1em;
+  width: 100%;
+  margin-left: 20%;
 }
-
-.picAndEdu{
-    background-color: #1A1B1D;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
+.yellowLine {
+  background-color: #ffc905;
+  height: 2px;
+  width: 35px;
 }
-
-.education{
-    color: #FFFFFF;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 14%;
+.picAndEdu {
+  background-color: #1a1b1d;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
 }
-.education p, .education h4{
-    font-size: 0.5em;
+.education {
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 14%;
 }
-.education h3{
-    padding-top: 5px;
-    padding-bottom: 5px;
+.education p,
+.education h4 {
+  font-size: 0.5em;
 }
-.education h4{
-    padding-top: 8px;
+.education h3 {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
-
-/* .expAndCon{
-    background-color: #EBEBEB;
-} */
-
-.expertise{
-    font-size: 1em;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    margin-left: 14%;
+.education h4 {
+  padding-top: 8px;
 }
-.expertise h3{
-    margin-top: 10px;
-    margin-bottom: 10px;
+.expertise {
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-left: 14%;
 }
-
-.photoshop, .illustrator, .indesign, .word, .powerpoint{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
+.expertise h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
-.photoshopYellow{
-    background-color: #FFC905;
-    margin-top: 4px;
-    margin-left: 10px;
-    height: 4px;
-    width: 85px;
+.photoshop,
+.illustrator,
+.indesign,
+.word,
+.powerpoint {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
 }
-.photoshopGray{
-    background-color: #5D5D69;
-    margin-top: 4px;
-    /* margin-left: 10px; */
-    height: 4px;
-    width: 15px;
+.photoshopYellow {
+  background-color: #ffc905;
+  margin-top: 4px;
+  margin-left: 10px;
+  height: 4px;
+  width: 85px;
 }
-
-.illustratorYellow{
-    background-color: #FFC905;
-    margin-top: 4px;
-    margin-left: 12px;
-    height: 4px;
-    width: 80px;
+.photoshopGray {
+  background-color: #5d5d69;
+  margin-top: 4px;
+  height: 4px;
+  width: 15px;
 }
-.illustratorGray{
-    background-color: #5D5D69;
-    margin-top: 4px;
-    height: 4px;
-    width: 20px;
+.illustratorYellow {
+  background-color: #ffc905;
+  margin-top: 4px;
+  margin-left: 12px;
+  height: 4px;
+  width: 80px;
 }
-
-.indesignYellow{
-    background-color: #FFC905;
-    margin-top: 4px;
-    margin-left: 21px;
-    height: 4px;
-    width: 85px;
+.illustratorGray {
+  background-color: #5d5d69;
+  margin-top: 4px;
+  height: 4px;
+  width: 20px;
 }
-.indesignGray{
-    background-color: #5D5D69;
-    margin-top: 4px;
-    height: 4px;
-    width: 15px;
+.indesignYellow {
+  background-color: #ffc905;
+  margin-top: 4px;
+  margin-left: 21px;
+  height: 4px;
+  width: 85px;
 }
-
-.wordYellow{
-    background-color: #FFC905;
-    margin-top: 4px;
-    margin-left: 38px;
-    height: 4px;
-    width: 80px;
+.indesignGray {
+  background-color: #5d5d69;
+  margin-top: 4px;
+  height: 4px;
+  width: 15px;
 }
-.wordGray{
-    background-color: #5D5D69;
-    margin-top: 4px;
-    height: 4px;
-    width: 20px;
+.wordYellow {
+  background-color: #ffc905;
+  margin-top: 4px;
+  margin-left: 38px;
+  height: 4px;
+  width: 80px;
 }
-
-.powerpointYellow{
-    background-color: #FFC905;
-    margin-top: 4px;
-    margin-left: 5px;
-    height: 4px;
-    width: 75px;
+.wordGray {
+  background-color: #5d5d69;
+  margin-top: 4px;
+  height: 4px;
+  width: 20px;
 }
-.powerpointGray{
-    background-color: #5D5D69;
-    margin-top: 4px;
-    height: 4px;
-    width: 25px;
+.powerpointYellow {
+  background-color: #ffc905;
+  margin-top: 4px;
+  margin-left: 5px;
+  height: 4px;
+  width: 75px;
 }
-
-.contacts{
-    display: flex;
-    font-size: 0.7em;
-    margin: 15px;
-    padding: 13px;
-    margin-bottom: 0;
-    padding-bottom: 0;
+.powerpointGray {
+  background-color: #5d5d69;
+  margin-top: 4px;
+  height: 4px;
+  width: 25px;
 }
-.contactDetails{
-    margin-left: 10px;
-    /* padding-top: 8px; */
+.contacts {
+  display: flex;
+  font-size: 0.7em;
+  margin: 15px;
+  padding: 13px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
-
-.contactImageDetails{
-    position: relative;
-    overflow: hidden;
+.contactDetails {
+  margin-left: 10px;
 }
-.contactPhoto{
-    height: 100%;
-    
-
-    width: 100%;
-    position: relative;
-    object-fit: cover;
-    /* flex-grow: 1; */
-    
+.contactImageDetails {
+  position: relative;
+  overflow: hidden;
 }
-
-.intro{
-    background-color: #EBEBEB;
-    /* padding-bottom: 15px; */
+.contactPhoto {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  object-fit: cover;
 }
-.intro h1{
-    padding-top: 55px;
-    font-size: 2.5em;
-    margin-left: 10%;
+.intro {
+  background-color: #ebebeb;
 }
-.textData{
-    max-width: 80%;
+.intro h1 {
+  padding-top: 55px;
+  font-size: 2.5em;
+  margin-left: 10%;
 }
-.introDesignation{
-    margin-bottom: 20px;
-    background-color: #FFC905;
-    display: inline-block;
-    text-align: start;
-    padding-left: 20px; 
-    padding-right: 20px;
-    word-spacing: 2px;
-    font-size: 1em;
-    margin-left: 10%;
-    margin-bottom: 5px;
+.textData {
+  max-width: 80%;
 }
-.profile{
-    margin-left: 10%;
-    margin-bottom: 10px;
+.introDesignation {
+  margin-bottom: 20px;
+  background-color: #ffc905;
+  display: inline-block;
+  text-align: start;
+  padding-left: 20px;
+  padding-right: 20px;
+  word-spacing: 2px;
+  font-size: 1em;
+  margin-left: 10%;
+  margin-bottom: 5px;
 }
-.profile p{
-    font-size: 0.7em;
-    padding-bottom: 30px;
-    padding-top: 10px;
+.profile {
+  margin-left: 10%;
+  margin-bottom: 10px;
 }
-.profile h3{
-    padding-top: 10px;
-    margin-bottom: 10px;
+.profile p {
+  font-size: 0.7em;
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
-
-.workExperience{
-    margin-left: 10%;
+.profile h3 {
+  padding-top: 10px;
+  margin-bottom: 10px;
 }
-.jobPosition{
-    display: flex;  
+.workExperience {
+  margin-left: 10%;
 }
-.workExperience h3{
-    padding-top: 20px;
-    padding-bottom: 10px;
+.jobPosition {
+  display: flex;
 }
-.workExperience h5{
-    padding-top: 10px;
-    padding-bottom: 10px;
+.workExperience h3 {
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
-.workExperience p{
-    font-size: 0.7em;
+.workExperience h5 {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-.highlight{
-    background-color: #FFC905;
-    padding-right: 5px;
-    padding-left: 5px;
-    margin-right: 5px;
+.workExperience p {
+  font-size: 0.7em;
 }
-.referenceFull{
-    margin-left: 10%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.highlight {
+  background-color: #ffc905;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: 5px;
 }
-.interestsFull h3, .interestsFull .yellowLine{
-    margin-left: 10%;
+.referenceFull {
+  margin-left: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-.referenceFull h3, .interestsFull h3{
-    padding-bottom: 10px;
+.interestsFull h3,
+.interestsFull .yellowLine {
+  margin-left: 10%;
 }
-
-.secondReference{
-    padding-left: 20%;
+.referenceFull h3,
+.interestsFull h3 {
+  padding-bottom: 10px;
 }
-
-.reference, .interests{
-    display: flex;
-    font-size: 0.7em;
-    padding-top: 10px;
+.secondReference {
+  padding-left: 20%;
 }
-.interests{
-    margin-left: 8%;
+.reference,
+.interests {
+  display: flex;
+  font-size: 0.7em;
+  padding-top: 10px;
 }
-.interests p{
-    text-align: center;
+.interests {
+  margin-left: 8%;
 }
-
-.interests img{
-    height: 50px;
-    width: 50px;
+.interests p {
+  text-align: center;
 }
-
-/* .addYellowColor{
-    background-color: #FFC905;
-    height: 100px;
-    position: relative;
-
-} */
+.interests img {
+  height: 50px;
+  width: 50px;
+}
